@@ -12,7 +12,7 @@ it('comprobar función par', function() {
 	assert.equal(pares.par(2), 0);
 	assert.equal(pares.par(20), 0);
 	assert.equal(pares.par(-10), 0);
-	assert.equal(pares.par(-15), -1);	//Al ser un número negativo, el resto será negativo
+	assert.equal(pares.par(-15), -1);  //Al ser un número negativo, el resto será negativo
 });
 
 
